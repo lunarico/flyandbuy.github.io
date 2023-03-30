@@ -1,0 +1,22 @@
+{
+    "nav": {
+        "link1": "About Us",
+        "link2": "What we do",
+        "link3": "Properties",
+        "link4": "Contact"
+    },
+
+    "aboutUs": {
+        "contact-button": "Contact us"
+    },
+
+    "services": {
+        "travel": "Travel",
+        "rent": "Rent",
+        "sale": "Sale",
+        "refactoring": "Refactoring",
+        "investment": "Investment",
+        "accommodation": "Accommodation",
+        "more": "More"
+    }
+}

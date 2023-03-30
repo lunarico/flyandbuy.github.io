@@ -1,0 +1,22 @@
+{
+    "nav": {
+        "link1": "Sobre Nosotros",
+        "link2": "Qué Hacemos",
+        "link3": "Propiedades",
+        "link4": "Contacto"
+    },
+
+    "aboutUs": {
+        "contact-button": "Contactanos"
+    },
+
+    "services": {
+        "travel": "Viajes",
+        "rent": "Alquileres",
+        "sale": "Venta",
+        "refactoring": "Refacción",
+        "investment": "Inversión",
+        "accommodation": "Alojamiento",
+        "more": "Ver"
+    }
+}
