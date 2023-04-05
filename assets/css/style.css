@@ -209,13 +209,6 @@ button:focus {
   width: 1.75em;
 }
 
-@media (max-width: 576px) {
-  .language-icon {
-    width: 1.5em;
-  }
-}
-
-
 /* ABOUT US */
 
 #aboutUs {
