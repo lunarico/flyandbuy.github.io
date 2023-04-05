@@ -216,7 +216,7 @@ button:focus {
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   display: grid;
   height: 50em;
 }
@@ -307,6 +307,9 @@ button:focus {
 }
 
 @media (max-width: 576px) {
+  #aboutUs {
+    background-image: url('../img/fondo4mobile.jpg');
+  }
   #aboutUs .box-intro {
     height: 50%;
     top: 55%;
