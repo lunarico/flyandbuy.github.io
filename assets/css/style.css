@@ -309,7 +309,7 @@ button:focus {
 @media (max-width: 576px) {
   #aboutUs {
     background-image: url('../img/fondo4mobile.jpg');
-    background-size:auto;
+    background-size: initial;
   }
   #aboutUs .box-intro {
     height: 50%;
