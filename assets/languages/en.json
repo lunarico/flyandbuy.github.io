@@ -7,16 +7,27 @@
     },
 
     "aboutUs": {
-        "contact-button": "Contact us"
+        "contact-button": "Contact us",
+        "intro": "We are Fly and Buy. An integral service company with which you will be able to Fly and Buy. We make it look as simple as that, because we have more than 10 years of experience in the Tourism and Real Estate industry.<br> We want you to invest with the best advice in the market, centralizing all your needs in a unique way."
     },
 
     "services": {
+        "general-info": "We provide you with the tools and information you need to keep your current and/or future property in good hands.<br>With just one click, we solve all your services and queries through one single intermediary, unifying two activities in one place with the best results.",
         "travel": "Travel",
-        "rent": "Rent",
-        "sale": "Sale",
+        "service-travel": "Where do you want to invest and vacation!?",
         "refactoring": "Refactoring",
+        "service-refactoring": "We reform your property as you wish.",
         "investment": "Investment",
-        "accommodation": "Accommodation",
-        "more": "More"
+        "service-investment": "We help you to buy in USA, Uruguay and Argentina.",
+        "building": "Properties",
+        "service-building": "We rent, sell, buy and/or manage your property.",
+        "consultancy": "Consultancy",
+        "service-consultancy": "We advise and recommend you.",
+        "opportunities": "Opportunities",
+        "service-opportunities": "Don't let them go."
+    },
+    
+    "properties": {
+        "title": "Find your property"
     }
 }

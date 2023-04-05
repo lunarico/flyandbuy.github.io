@@ -22,6 +22,9 @@
   <!-- ÍCONOS -->
   <script src="https://kit.fontawesome.com/6b9569e6d4.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- ANIMACIONES -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
@@ -37,7 +40,7 @@
             <a data-section="nav" data-value="link2" class="nav-link scrollto" href="#whatWeDo">Qué Hacemos</a>
           </li>
           <li>
-            <a data-section="nav" data-value="link3" class="nav-link scrollto" href="#properties">Propiedaes</a>
+            <a data-section="nav" data-value="link4" class="nav-link scrollto" href="#properties">Propiedades</a>
           </li>
           <li>
             <a data-section="nav" data-value="link4" class="nav-link scrollto" href="#contact">Contacto</a>
@@ -60,126 +63,180 @@
   <main>
     <section id="aboutUs">
       <div class="box-intro d-flex">
-        <p class="intro">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias necessitatibus culpa sed dolorem harum.
-          Exercitationem consequuntur recusandae excepturi numquam corporis repellendus voluptate maxime nemo quisquam?
-          At, eveniet quas? Natus, id?
+        <p class="intro" data-section="aboutUs" data-value="intro">
+          Somos Fly and Buy. Una empresa integral de servicios con la que, básicamente, vas a poder Volar y Comprar. Lo 
+          hacemos parecer así de simple, porque tenemos más de 10 años de experiencia en el Rubro Turístico y Real Estate. 
+          <br>La idea es que inviertas con el mejor asesoramiento del mercado, centralizando todas tus necesidades en un solo 
+          canal.
         </p>
       </div>
         <a href="#contact" class="contact" data-section="aboutUs" data-value="contact-button">Contactanos</a>
-      <!-- <a href="#">Hover to Shine</a> -->
     </section>
 
     <section id="whatWeDo">
-
+      <p class="intro-whatWeDo" data-section="services" data-value="general-info">
+        Te damos las herramientas y la información necesaria para que dejes tu actual y/o futura propiedad en buenas 
+        manos.<br>En un solo click, resolvemos todos tus servicios y consultas por un solo intermediario, unificando dos 
+        actividades en un solo lugar y con los mejores resultados.
+      </p>
       <div id="accordion" class="d-flex">
-
         <div class="col-12 col-md-5 col-lg-4 services">
-          <div class="card-service">
+          <div class="card-service" data-toggle="collapse" data-target="#travel" aria-expanded="true" aria-controls="travel">
             <span class="material-symbols-outlined">flight</span>
             <h6 data-section="services" data-value="travel">Viajes</h6>
-            <button data-toggle="collapse" data-target="#travel" aria-expanded="true" aria-controls="travel" data-section="services" data-value="more">
+            <!-- <button data-toggle="collapse" data-target="#travel" aria-expanded="true" aria-controls="travel" data-section="services" data-value="more">
               Ver
-            </button>
+            </button> -->
           </div>
-          <div id="travel" class="collapse text-center">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, dolor dignissimos laborum similique neque 
-              adipisci ducimus soluta obcaecati dolore facere deleniti exercitationem vero iste laudantium atque, officiis 
-              aut animi nostrum.
-            </p>
+          <div id="travel" class="collapse text-center animate__animated animate__fadeIn">
+            <p data-section="services" data-value="service-travel">¿¡Dónde querés invertir y vacacionar!?</p>
           </div>
         </div>
 
         <div class="col-12 col-md-5 col-lg-4 services">
-          <div class="card-service">
-            <span class="material-symbols-outlined">real_estate_agent</span>
-            <h6 data-section="services" data-value="rent">Alquileres</h6>
-            <button data-toggle="collapse" data-target="#rent" aria-expanded="true" aria-controls="rent" data-section="services" data-value="more">
-              Ver
-            </button>
-          </div>
-          <div id="rent" class="collapse text-center">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, dolor dignissimos laborum similique neque 
-              adipisci ducimus soluta obcaecati dolore facere deleniti exercitationem vero iste laudantium atque, officiis 
-              aut animi nostrum.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-5 col-lg-4 services">
-          <div class="card-service">
-            <span class="material-symbols-outlined">apartment</span>
-            <h6 data-section="services" data-value="sale">Venta</h6>
-            <button data-toggle="collapse" data-target="#sale" aria-expanded="true" aria-controls="sale" data-section="services" data-value="more">
-              Ver
-            </button>
-          </div>
-          <div id="sale" class="collapse text-center">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, dolor dignissimos laborum similique neque 
-              adipisci ducimus soluta obcaecati dolore facere deleniti exercitationem vero iste laudantium atque, officiis 
-              aut animi nostrum.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-5 col-lg-4 services">
-          <div class="card-service">
+          <div class="card-service" data-toggle="collapse" data-target="#refactoring" aria-expanded="true" aria-controls="refactoring">
             <span class="material-symbols-outlined">construction</span>
-            <h6 data-section="services" data-value="refactoring">Refacción</h6>
-            <button data-toggle="collapse" data-target="#refactoring" aria-expanded="true" aria-controls="refactoring" data-section="services" data-value="more">
+            <h6 data-section="services" data-value="refactoring">Reformas</h6>
+            <!-- <button data-toggle="collapse" data-target="#refactoring" aria-expanded="true" aria-controls="refactoring" data-section="services" data-value="more">
               Ver
-            </button>
+            </button> -->
           </div>
           <div id="refactoring" class="collapse text-center">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, dolor dignissimos laborum similique neque 
-              adipisci ducimus soluta obcaecati dolore facere deleniti exercitationem vero iste laudantium atque, officiis 
-              aut animi nostrum.
-            </p>
+            <p data-section="services" data-value="service-refactoring">Reformamos tu propiedad como vos quieras.</p>
           </div>
         </div>
 
         <div class="col-12 col-md-5 col-lg-4 services">
-          <div class="card-service">
+          <div class="card-service" data-toggle="collapse" data-target="#investment" aria-expanded="true" aria-controls="investment">
             <span class="material-symbols-outlined">savings</span>
             <h6 data-section="services" data-value="investment">Inversión</h6>
-            <button data-toggle="collapse" data-target="#investment" aria-expanded="true" aria-controls="investment" data-section="services" data-value="more">
+            <!-- <button data-toggle="collapse" data-target="#investment" aria-expanded="true" aria-controls="investment" data-section="services" data-value="more">
               Ver
-            </button>
+            </button> -->
           </div>
           <div id="investment" class="collapse text-center">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, dolor dignissimos laborum similique neque 
-              adipisci ducimus soluta obcaecati dolore facere deleniti exercitationem vero iste laudantium atque, officiis 
-              aut animi nostrum.
-            </p>
+            <p data-section="services" data-value="service-investment">Te ayudamos a comprar en USA, Uruguay y Argentina.</p>
           </div>
         </div>
 
         <div class="col-12 col-md-5 col-lg-4 services">
-          <div class="card-service">
-            <span class="material-symbols-outlined">room_service</span>
-            <h6 data-section="services" data-value="accommodation">Alojamiento</h6>
-            <button data-toggle="collapse" data-target="#accommodation" aria-expanded="true" aria-controls="accommodation" data-section="services" data-value="more">
+          <div class="card-service" data-toggle="collapse" data-target="#building" aria-expanded="true" aria-controls="building">
+            <span class="material-symbols-outlined">apartment</span>
+            <h6 data-section="services" data-value="building">Propiedades</h6>
+            <!-- <button data-toggle="collapse" data-target="#sale" aria-expanded="true" aria-controls="sale" data-section="services" data-value="more">
               Ver
-            </button>
+            </button> -->
           </div>
-          <div id="accommodation" class="collapse text-center">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, dolor dignissimos laborum similique neque 
-              adipisci ducimus soluta obcaecati dolore facere deleniti exercitationem vero iste laudantium atque, officiis 
-              aut animi nostrum.
-            </p>
+          <div id="building" class="collapse text-center">
+            <p data-section="services" data-value="service-building">Alquilamos, vendemos, compramos y/o administramos tu propiedad.</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 col-lg-4 services">
+          <div class="card-service" data-toggle="collapse" data-target="#consultancy" aria-expanded="true" aria-controls="consultancy">
+            <span class="material-symbols-outlined">psychology_alt</span>
+            <h6 data-section="services" data-value="consultancy">Asesoramiento</h6>
+            <!-- <button data-toggle="collapse" data-target="#rent" aria-expanded="true" aria-controls="rent" data-section="services" data-value="more">
+              Ver
+            </button> -->
+          </div>
+          <div id="consultancy" class="collapse text-center">
+            <p data-section="services" data-value="service-consultancy">Te asesoramos y recomendamos.</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 col-lg-4 services">
+          <div class="card-service" data-toggle="collapse" data-target="#opportunities" aria-expanded="true" aria-controls="opportunities">
+            <span class="material-symbols-outlined">paid</span>
+            <h6 data-section="services" data-value="opportunities">Oportunidades</h6>
+            <!-- <button data-toggle="collapse" data-target="#accommodation" aria-expanded="true" aria-controls="accommodation" data-section="services" data-value="more">
+              Ver
+            </button> -->
+          </div>
+          <div id="opportunities" class="collapse text-center">
+            <p data-section="services" data-value="service-opportunities">No las dejes pasar.</p>
           </div>
         </div>
     </section>
+    
     <section id="properties">
-      <h2>Encontrá tu propiedad</h2>
+      <h2 data-section="properties" data-value="title">Encontrá tu propiedad</h2>
+      <div class="flags-container">
+        <a class="flag" data-filter="arg">
+          <div class="flag-style" style="background-image: url(./assets/img/argentina.png)"></div>
+        </a>   
+        <a class="flag" data-filter="uru">
+          <div class="flag-style" style="background-image: url(./assets/img/uruguay.png)"></div>
+        </a>
+        <a class="flag" data-filter="usa">
+          <div class="flag-style" style="background-image: url(./assets/img/usa.png)"></div>
+        </a>
+      </div>
+      <div class="filter arg">
+        <img src="http://fakeimg.pl/365x365/" >
+        <img src="http://fakeimg.pl/365x365/" >
+        <img src="http://fakeimg.pl/365x365/" >
+      </div>
+      <div class="filter uru">
+          <img src="http://fakeimg.pl/365x365/" >
+          <img src="http://fakeimg.pl/365x365/" >
+          <img src="http://fakeimg.pl/365x365/" >
+          <img src="http://fakeimg.pl/365x365/" >
+          <img src="http://fakeimg.pl/365x365/" >
+          <img src="http://fakeimg.pl/365x365/" >
+          
+      </div>
+      <div class="filter usa">
+          <img src="http://fakeimg.pl/365x365/" >
+          <img src="http://fakeimg.pl/365x365/" >
+          <img src="http://fakeimg.pl/365x365/" >
+          <img src="http://fakeimg.pl/365x365/" >
+      </div>
+
+      <a href="" class="zonaProps" data-section="" data-value="">Mirá en ZonaProps</a>
+      <!-- <div class="flags-container">
+        <div class="flag" data-filter="arg">
+          <div class="flag-style" style="background-image: url(./assets/img/argentina.png)" data-toggle="collapse" data-target="#arg" aria-expanded="true" aria-controls="arg"></div>
+          
+          <div id="arg" class="filter arg collapse">
+            <img src="http://fakeimg.pl/365x365/" >
+            <img src="http://fakeimg.pl/365x365/" >
+            <img src="http://fakeimg.pl/365x365/" >
+          </div>
+
+        </div>
+
+        <div class="flag" data-filter="uru">
+          <div class="flag-style" style="background-image: url(./assets/img/uruguay.png)" data-toggle="collapse" data-target="#uru" aria-expanded="true" aria-controls="uru"></div>
+          
+          <div id="uru" class="filter uru collapse">
+            <img src="http://fakeimg.pl/365x365/" >
+            <img src="http://fakeimg.pl/365x365/" >
+            <img src="http://fakeimg.pl/365x365/" >
+            <img src="http://fakeimg.pl/365x365/" >
+            <img src="http://fakeimg.pl/365x365/" >
+            <img src="http://fakeimg.pl/365x365/" >
+          </div>
+          
+        </div>
+
+        <div class="flag" data-filter="usa">
+          <div class="flag-style" style="background-image: url(./assets/img/usa.png)" data-toggle="collapse" data-target="#usa" aria-expanded="true" aria-controls="usa"></div>
+          
+          <div id="usa" class="filter arg collapse">
+            <img src="http://fakeimg.pl/365x365/" >
+            <img src="http://fakeimg.pl/365x365/" >
+            <img src="http://fakeimg.pl/365x365/" >
+            <img src="http://fakeimg.pl/365x365/" >
+          </div>
+          
+
+        </div>
+      </div> -->
     </section>
-    <section id="contact"></section>
+
+    <section id="contact"> 
+    </section>
   </main>
 
 
@@ -194,6 +251,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   <script src="assets/js/main.js"></script>
+  
 </body>
 
 </html>

@@ -175,7 +175,7 @@ languages.addEventListener('click', (e) => {
 })
 
 
-//SELECTED
+//LANGUAGE SELECTED
 
 let buttonLanguage = document.getElementsByClassName("button-language");
 
@@ -192,8 +192,38 @@ for (var i =0; i < buttonLanguage.length; i++) {
 
 
 
+// FLAG PROPERTIES SELECTED
+
+let flagProperties = document.getElementsByClassName('flag-style')
+
+function flagSelected () {
+  for (var i=0; i < flagProperties.length; i++) {
+    flagProperties[i].classList.add('flagNotSelected')
+  }
+  this.classList.remove('flagNotSelected')
+}
+
+for(var i=0; i < flagProperties.length; i++) {
+  flagProperties[i].addEventListener("click", flagSelected)
+}
 
 
-$(".spoiler-trigger").click(function() {
-  $(this).parent().next().collapse('toggle');
-});
+// FLAG FILTER
+
+ $(document).ready(function(){
+   $(".flag").click(function(){
+       var value = $(this).attr('data-filter');
+       $(".filter").not('.'+value).hide('2000');
+      $('.filter').filter('.'+value).show('2000');
+   });
+
+ });
+
+ 
+
+// $(document).ready(function() {
+//   $(".flag").click(function() {
+//     var value = $(this).attr('data-filter');
+//     $(".filter").not
+//   })
+// })

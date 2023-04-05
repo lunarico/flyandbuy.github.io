@@ -7,16 +7,27 @@
     },
 
     "aboutUs": {
-        "contact-button": "Contactanos"
+        "contact-button": "Contactanos",
+        "intro": "Somos Fly and Buy. Una empresa integral de servicios con la que, básicamente, vas a poder Volar y Comprar. Lo hacemos parecer así de simple, porque tenemos más de 10 años de experiencia en el Rubro Turístico y Real Estate.<br> La idea es que inviertas con el mejor asesoramiento del mercado, centralizando todas tus necesidades en un solo canal."
     },
 
     "services": {
+        "general-info": "Te damos las herramientas y la información necesaria para que dejes tu actual y/o futura propiedad en buenas manos.<br>En un solo click, resolvemos todos tus servicios y consultas por un solo intermediario, unificando dos actividades en un solo lugar y con los mejores resultados.",
         "travel": "Viajes",
-        "rent": "Alquileres",
-        "sale": "Venta",
-        "refactoring": "Refacción",
+        "service-travel": "¿¡Dónde querés invertir y vacacionar!?",
+        "refactoring": "Reformas",
+        "service-refactoring": "Reformamos tu propiedad como vos quieras.",
         "investment": "Inversión",
-        "accommodation": "Alojamiento",
-        "more": "Ver"
+        "service-investment": "Te ayudamos a comprar en USA, Uruguay y Argentina.",
+        "building": "Propiedades",
+        "service-building": "Alquilamos, vendemos, compramos y/o administramos tu propiedad.",
+        "consultancy": "Asesoramiento",
+        "service-consultancy": "Te asesoramos y recomendamos.",
+        "opportunities": "Oportunidades",
+        "service-opportunities": "No las dejes pasar."
+    },
+
+    "properties": {
+        "title": "Encontrá tu propiedad"
     }
 }
