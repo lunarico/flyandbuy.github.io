@@ -38,7 +38,35 @@ a:hover {
   text-decoration: none;
 }
 
+.whatsapp {
+  background-color:#25d366;
+  border-radius:50px;
+  bottom:30px;
+  color:#FFF;
+  font-size:30px;
+  height:50px;
+  position:fixed;
+  right:40px;
+  text-align:center;
+  width:50px;
+  z-index:100;
+}
 
+.whatsapp:hover {
+  color: white;
+}
+
+.whatsapp-icon {
+  font-size: 1.115em;
+  margin-top:8px;
+}
+
+@media (max-width: 576px) {
+  .whatsapp {
+    bottom: 20px;
+    right: 20px;
+  }
+}
 /* HEADER */
 
 #header {
@@ -614,3 +642,118 @@ button:focus {
     width: 65%;
   }
 }
+
+
+/* CONTACTO */
+
+#contact {
+  margin-top: 4em;
+}
+
+#contact .contact-container {
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+}
+
+.flip-container {
+  margin: 1em 2.5em;
+  float: left;
+  width: 30%;
+}
+
+.flip-container:hover .flipper {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  border-radius: 20px;
+  font-size: 30px;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+  width: 8em;
+}
+
+.flipper {
+  position: relative;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  background-color: var(--color11);
+  color: white;
+  z-index: 2;
+}
+
+.front i {
+  font-size: 1.25em;
+}
+
+#insta {
+  font-size: 1.5em;
+  position: relative;
+  top:7px;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.back p {
+  font-size: .5em;
+  margin-top: 0px;
+  border-radius: 20px;
+  background-color: var(--color22);
+  color: white;
+}
+
+@media (max-width: 1199px) {
+  .flip-container {
+    margin: 1em 1.5em;
+  }
+}
+
+@media (max-width: 992px) {
+  .flip-container, .front, .back {
+    width: 5.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .flip-container {
+    margin: .75em;
+  }
+
+  .flip-container, .front, .back {
+    width: 4.875em;
+  }
+
+  .front i {
+  font-size: 1em;  
+  }
+
+#insta {
+  font-size: 1.25em;
+  top:5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .flip-container, .front, .back {
+    width: 8em;
+  }
+
+  .flip-container {
+    margin: 1em;
+  }
+} 
