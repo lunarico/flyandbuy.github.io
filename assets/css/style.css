@@ -109,10 +109,18 @@ a:hover {
   }
 }
 
+#logo {
+  margin: 0;
+  padding-left: 2.5em;
+  max-width: 25%;
+  width: 10em;
+}
+
 
 /* NAV */
 
 .navbar {
+  margin-left: 11em;
   padding: 0;
 }
 
