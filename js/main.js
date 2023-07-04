@@ -218,12 +218,3 @@ for(var i=0; i < flagProperties.length; i++) {
    });
 
  });
-
- 
-
-// $(document).ready(function() {
-//   $(".flag").click(function() {
-//     var value = $(this).attr('data-filter');
-//     $(".filter").not
-//   })
-// })

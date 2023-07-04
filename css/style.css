@@ -1,13 +1,6 @@
 /* PALETA DE COLORES */
 
 :root {
-  --color1: #2B2F2E;
-  --color2: #D7C2AD;
-  --color3: #E7DBCB;
-  --color4:#F3EFEB;
-}
-
-:root {
   --color11: #2D2D2B;
   --color22: #9F9385;
   --color33: #EAE3D9;
@@ -67,71 +60,40 @@ a:hover {
     right: 20px;
   }
 }
+
 /* HEADER */
 
-#header {
+#header  {
   background: var(--color11);
   opacity: 90%;
-  padding: 5px 0;
+  padding: .375em;
 }
 
 #header .logo {
-  font-size: 2em;
-  margin: 0;
-  padding-left: 2.5em;
+  padding: 0 2em;
 }
 
-#header .logo a {
-  color: white;
-}
-
-#header .logo a:hover {
-  color: var(--color22);
-}
-
-@media (max-width: 1200px) {
-  #header .logo {
-    padding-left: 1.25em;
-  }
-}
-
-@media (max-width: 992px) {
-  #header .logo {
-    display: inline;
-    font-size: 1.75em;
-  }
+#header .logo img {
+  width: 7.5em;
 }
 
 @media (max-width: 576px) {
   #header .logo {
-    font-size: 1.5em;
-    padding: 0 0 0 .5em;
+    padding: 0 .5em;
   }
 }
 
-#logo {
-  margin: 0;
-  padding-left: 2.5em;
-  max-width: 25%;
-  width: 10em;
-}
-
-
 /* NAV */
 
-.navbar {
-  margin-left: 11em;
-  padding: 0;
+.navbar ul {
+  margin: 0;
+  width: 65%;
 }
 
-.navbar ul {
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  margin: 0;
-  padding: 0 3em;
-  width: 100%;
+@media (max-width: 1200px) {
+  .navbar ul {
+    width: 77%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -140,13 +102,8 @@ a:hover {
   }
 }
 
-.navbar ul li {
-  position: relative;
-}
-
 .navbar a {
   color: white;
-  padding: 0;
   text-decoration: none;
 }
 
@@ -164,9 +121,7 @@ a:hover {
     display: block;
   }
 
-  .fa-bars {
-    margin-left: 50%;
-  }
+  
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -224,13 +179,20 @@ button:focus {
 }
 
 #languages {
+  padding-right: 2em;
   text-align: end;
+}
+
+@media (max-width: 992px) {
+  #languages {
+    padding-right: 0;
+  }
 }
 
 .button-language {
   border: none;
   border-radius: 100%;
-  margin: 0 .25em;
+  margin: 0 .5em;
 }
 
 .button-language.button-active {
@@ -248,7 +210,7 @@ button:focus {
 /* ABOUT US */
 
 #aboutUs {
-  background-image: url('../img/fondo4.jpg');
+  background-image: url('../assets/img/fondo4.jpg');
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -279,7 +241,7 @@ button:focus {
   background-color: var(--color11);
   border: 2px solid var(--color22);
   border-radius: 15px;
-  color: var(--color4);
+  color: var(--color44);
   height: 3em;
   justify-self: center;
   overflow: hidden;
@@ -344,7 +306,7 @@ button:focus {
 
 @media (max-width: 576px) {
   #aboutUs {
-    background-image: url('../img/fondo4mobile.jpg');
+    background-image: url('../assets/img/fondo4mobile.jpg');
     background-size: initial;
   }
   #aboutUs .box-intro {
@@ -495,7 +457,7 @@ button:focus {
 /* PROPERTIES */
 
 #properties {
-  background-image: url('../img/properties.jpg');
+  background-image: url('../assets/img/properties.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -563,7 +525,7 @@ button:focus {
   background-color: var(--color11);
   border: 2px solid var(--color22);
   border-radius: 15px;
-  color: var(--color4);
+  color: var(--color44);
   font-size: 1.5em;
   justify-self: center;
   margin: 1em 0;
@@ -655,13 +617,12 @@ button:focus {
 /* CONTACTO */
 
 #contact {
-  margin-top: 4em;
+  margin: 4em 0;
 }
 
 #contact .contact-container {
   justify-content: center;
   margin: 0;
-  width: 100vw;
 }
 
 .flip-container {
@@ -765,3 +726,13 @@ button:focus {
     margin: 1em;
   }
 } 
+
+
+/* FOOTER */
+
+footer {
+  background-color: var(--color11);
+  height: 1.75em;
+  position:absolute;
+  width: 100%;
+}
