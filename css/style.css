@@ -25,8 +25,9 @@
 body {
   background-color: var(--color44);
   font-size: 15px;
-  width: 100vw;
 }
+
+/* WHATSAPP */
 
 a:hover {
   text-decoration: none;
@@ -48,6 +49,7 @@ a:hover {
 
 .whatsapp:hover {
   color: white;
+  transform: scale(1.1);
 }
 
 .whatsapp-icon {
@@ -343,7 +345,7 @@ button:focus {
 
 @media (max-width: 768px) {
   #aboutUs {
-    background-size: initial;
+    background-image: url('../assets/img/prueba4.jpg');
   }
 
   #aboutUs .box-intro {
