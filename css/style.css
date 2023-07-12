@@ -338,7 +338,6 @@ button:focus {
   }
 
   #aboutUs .intro {
-    font-size: .875em;
     margin: .875em;
   }
 
@@ -358,6 +357,10 @@ button:focus {
     width: 70%;
   }
 
+  #aboutUs .intro {
+    font-size: .938em;
+  }
+
   #aboutUs .contact{
     width: 20%;
   }
@@ -370,10 +373,11 @@ button:focus {
 
   #aboutUs .box-intro {
     margin-top: 11em;
+    width: 75%;
   }
 
   #aboutUs .intro {
-    font-size: .75em;
+    font-size: .875em;
   }
 
   #aboutUs .contact{
