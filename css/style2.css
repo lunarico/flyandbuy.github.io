@@ -65,7 +65,7 @@
     }
   }
 
-  /* HEADER - LOGO
+  /* HEADER - LOGO */
 
   #header  {
     background: var(--color11);
@@ -105,7 +105,7 @@
     }
   }
   
-
+/*
   /* HEADER - NAV */
 
 .navbar ul {
