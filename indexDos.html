@@ -17,7 +17,6 @@
 
   <!-- ÍCONOS -->
   <script src="https://kit.fontawesome.com/6b9569e6d4.js" crossorigin="anonymous"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></script> -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <!-- ANIMACIONES -->
@@ -28,11 +27,30 @@
     <a href="" class="whatsapp" target="_blank"> 
         <i class="fa fa-whatsapp whatsapp-icon"></i>
     </a>
-    <head>
-        <!-- <div class="logo col-lg-2 ">
-            <img src="./BLANCO.png" alt="">
-          </div> -->
-    </head>
+    <header id="header">
+        <div class="d-flex align-items-center justify-content-between">
+            <div class="logo col-lg-2">
+                <img src="./BLANCO.png" alt="">
+            </div>
+            <nav id="navbar" class="navbar col-lg-8  d-flex justify-content-center">
+            <ul class="d-lg-flex align-items-center justify-content-between">
+                <li><a data-section="nav" data-value="link1" class="nav-link scrollto active" href="#aboutUs">Sobre Nosotros</a></li>
+                <li><a data-section="nav" data-value="link2" class="nav-link scrollto" href="#whatWeDo">Qué Hacemos</a></li>
+                <li><a data-section="nav" data-value="link3" class="nav-link scrollto" href="#properties">Propiedades</a></li>
+                <li><a data-section="nav" data-value="link4" class="nav-link scrollto" href="#contact">Contacto</a></li>
+            </ul>
+            <i id="icon-nav" class="fa-solid fa-bars mobile-nav-toggle "></i>
+            </nav>
+            <div id="languages" class="col-lg-2 col-sm-4" >
+                <button data-language="es" class="button-language button-active">
+                  <img src="./assets/img/spain.png" alt="spanish" class="language-icon">
+                </button>
+                <button data-language="en" class="button-language">
+                  <img src="./assets/img/england.png" alt="english" class="language-icon">
+                </button>
+            </div>
+        </div>
+    </header>
     
 </body>
 </html>
