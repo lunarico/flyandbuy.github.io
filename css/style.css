@@ -270,20 +270,20 @@ button:focus {
 }
 
 #aboutUs .box-intro {
-  background-color: rgba(43, 47, 46, .5);
+  align-self: center;
+  background-color: rgba(43, 47, 46, .8);
   border-radius: 2em;
-  height: 35%;
-  position: relative;
-  top: 75%; 
-  width: 45%;
   justify-self: center;
+  margin-top: 14em;
+  width: 50%;
 }
 
 #aboutUs .intro {
   align-self: center;
   color: var(--color44);
+  font-size: 1em;
   font-weight: 500;
-  margin: 0 1em;
+  margin: 1em;
   text-align: center;
 }
 
@@ -323,7 +323,8 @@ button:focus {
 
 @media (max-width: 1200px) {
   #aboutUs .box-intro {
-    width: 50%;
+    margin-top: 11em;
+    width: 60%;
   }
 
   #aboutUs .contact{
@@ -333,9 +334,12 @@ button:focus {
 
 @media (max-width: 992px) {
   #aboutUs .box-intro {
-    height: 35%;
-    top: 70%;
-    width: 60%;
+    width: 65%;
+  }
+
+  #aboutUs .intro {
+    font-size: .875em;
+    margin: .875em;
   }
 
   #aboutUs .contact{
@@ -351,8 +355,7 @@ button:focus {
   }
 
   #aboutUs .box-intro {
-    height: 40%;
-    width: 75%;
+    width: 70%;
   }
 
   #aboutUs .contact{
@@ -366,9 +369,11 @@ button:focus {
   }
 
   #aboutUs .box-intro {
-    height: 50%;
-    top: 55%;
-    width: 85%;
+    margin-top: 11em;
+  }
+
+  #aboutUs .intro {
+    font-size: .75em;
   }
 
   #aboutUs .contact{
