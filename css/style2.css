@@ -15,14 +15,16 @@
   
   /* BASE */
   
-  /* * {
+  * {
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+  } 
+
+  body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-  } */
-
+  }
   /* body {
     background-color: var(--color44);
     max-width: 100vw;
