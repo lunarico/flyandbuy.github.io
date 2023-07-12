@@ -376,6 +376,8 @@ button:focus {
   }
 
   #aboutUs .contact{
+    margin-top: 3em;
+    height: 2.25em;
     width: 8.5em;
   }
 }
