@@ -260,7 +260,6 @@ button:focus {
 #aboutUs {
   background-image: url('../assets/img/fondo4.jpg');
   background-attachment: fixed;
-  background-position: top;
   background-size: cover;
   display: grid;
   height: 50em;
