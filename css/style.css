@@ -260,6 +260,7 @@ button:focus {
 #aboutUs {
   background-image: url('../assets/img/fondo4.jpg');
   background-attachment: fixed;
+  background-position: top;
   background-size: cover;
   display: grid;
   height: 50em;
@@ -340,6 +341,10 @@ button:focus {
 }
 
 @media (max-width: 768px) {
+  #aboutUs {
+    background-image: url('../assets/img/prueba2.jpg');
+  }
+
   #aboutUs .box-intro {
     height: 40%;
     width: 75%;
@@ -352,9 +357,9 @@ button:focus {
 
 @media (max-width: 576px) {
   #aboutUs {
-    background-image: url('../assets/img/prueba1.jpg');
     background-size: initial;
   }
+
   #aboutUs .box-intro {
     height: 50%;
     top: 55%;
