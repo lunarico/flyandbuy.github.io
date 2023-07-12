@@ -26,6 +26,8 @@
     padding: 0;
   }
 
+
+  /* WHATSAPP */
   
   a:hover {
     text-decoration: none;
@@ -89,12 +91,6 @@
   @media (max-width: 576px) {
     #header .logo img{
       width: 5.75em;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    #header .logo {
-      padding: 0 .5em;
     }
   }
   
