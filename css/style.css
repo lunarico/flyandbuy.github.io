@@ -261,12 +261,12 @@ button:focus {
 /* ABOUT US */
 
 #aboutUs {
-  background-image: url('../assets/img/fondo4.jpg');
+  background-image: url('../assets/img/fondoFinal.jpg');
   background-attachment: fixed;
   background-position: top;
   background-size: cover;
   display: grid;
-  height: 50em;
+  height: 100vh;
 }
 
 #aboutUs .box-intro {
@@ -345,7 +345,9 @@ button:focus {
 
 @media (max-width: 768px) {
   #aboutUs {
-    background-image: url('../assets/img/prueba4.jpg');
+    background-image: url('../assets/img/fondo5.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
   }
 
   #aboutUs .box-intro {
