@@ -352,7 +352,10 @@ button:focus {
 }
 
 @media (max-width: 576px) {
- 
+  #aboutUs {
+    background-image: url('../assets/img/prueba1.jpg');
+
+  }
   #aboutUs .box-intro {
     height: 50%;
     top: 55%;
