@@ -26,9 +26,7 @@
     padding: 0;
   }
 
-
-  /* WHATSAPP */
-
+  
   a:hover {
     text-decoration: none;
   }
@@ -64,20 +62,14 @@
     }
   }
 
-
   /* HEADER - LOGO */
 
   #header  {
     background: var(--color11);
     opacity: 90%;
-    padding: 0.375em 0;
+    padding: .375em 0;
   }
   
-  #header .logo {
-    padding-left: 2em;
-    width: 30%;
-  }
-
   #header .logo img {
     width: 7.5em;
   }
@@ -102,7 +94,7 @@
   
   @media (max-width: 576px) {
     #header .logo {
-      padding-left: .25em;
+      padding: 0 .5em;
     }
   }
   
