@@ -25,6 +25,7 @@
 body {
   background-color: var(--color44);
   font-size: 15px;
+  width: 100%;
 }
 
 a:hover {
