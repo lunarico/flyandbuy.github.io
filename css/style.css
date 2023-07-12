@@ -368,6 +368,7 @@ button:focus {
   }
 
   #aboutUs .box-intro {
+    margin-top: 9em;
     width: 70%;
   }
 
