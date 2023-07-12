@@ -342,6 +342,7 @@ button:focus {
 
 @media (max-width: 768px) {
   #aboutUs {
+    background-image: url('../assets/img/prueba3.jpg');
     background-size: initial;
   }
 
